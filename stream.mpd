@@ -1,15 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Created with Broadpeak BkS350 Origin Packager (version=1.12.11-29361) -->
-<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2025-08-26T14:00:33.743342Z" minimumUpdatePeriod="PT2S" timeShiftBufferDepth="PT3M" maxSegmentDuration="PT3S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" type="dynamic" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2025-08-26T15:36:34.932590Z" minimumUpdatePeriod="PT2S" timeShiftBufferDepth="PT3M" maxSegmentDuration="PT3S" minBufferTime="PT2S" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:com:dashif:dash264">
   <Period id="1" start="PT0S">
-    <BaseURL>https://l18.dp.sooka.my/wmt:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NTYyMTY4MjYsImlzcyI6IlZSIiwiZXhwIjoxNzU2MjQ3NDAwLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiMjU3NWQyYTUtNmQ3YS00M2VjLWFhOGQtOTAwOWJhMjFhMWQwIiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9NzIwKXx8KHR5cGU9PVwiYXVkaW9cIiYmZm91ckNDIT1cImFjLTNcIil8fCh0eXBlIT1cInZpZGVvXCImJnR5cGUhPVwiYXVkaW9cIikiLCJwYXR0ZXJuIjoiMTAwMCJ9.gRAEJ1TKpco1zyLQJ7UBg3rWeiovkL3PoXYqkgIEqYc/1000/linear/dash/</BaseURL>
+    <BaseURL>dash/</BaseURL>
     <AdaptationSet id="1" group="1" contentType="audio" lang="ms" segmentAlignment="true" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.5" startWithSAP="1">
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="48000" initialization="1000-$RepresentationID$.dash?ctype=live" media="1000-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-08-26T13:57:27.040020Z / 1756216647 - 2025-08-26T14:00:29.056020Z -->
+        <!-- 2025-08-26T15:33:29.045354Z / 1756222409 - 2025-08-26T15:36:31.018687Z -->
         <SegmentTimeline>
-          <S t="84298399057921" d="96256" r="2"/>
+          <S t="84298675634177" d="96256" r="1"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
           <S d="94208"/>
@@ -32,6 +32,7 @@
           <S d="96256" r="6"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
+          <S d="94208"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="audio_40080_may=40000" bandwidth="40000">
@@ -41,9 +42,9 @@
       <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="48000" initialization="1000-$RepresentationID$.dash?ctype=live" media="1000-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-08-26T13:57:27.040020Z / 1756216647 - 2025-08-26T14:00:29.056020Z -->
+        <!-- 2025-08-26T15:33:29.045354Z / 1756222409 - 2025-08-26T15:36:31.018687Z -->
         <SegmentTimeline>
-          <S t="84298399057921" d="96256" r="2"/>
+          <S t="84298675634177" d="96256" r="1"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
           <S d="94208"/>
@@ -66,6 +67,7 @@
           <S d="96256" r="6"/>
           <S d="94208"/>
           <S d="96256" r="6"/>
+          <S d="94208"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="audio_40082_mul=40000" bandwidth="40000">
@@ -74,9 +76,9 @@
     <AdaptationSet id="3" group="3" contentType="text" lang="ms" mimeType="application/mp4" codecs="stpp.ttml.im1t" startWithSAP="1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
       <SegmentTemplate timescale="1000" initialization="1000-$RepresentationID$.dash?ctype=live" media="1000-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-08-26T13:57:29.018000Z / 1756216649 - 2025-08-26T14:00:29.018000Z -->
+        <!-- 2025-08-26T15:33:31.018000Z / 1756222411 - 2025-08-26T15:36:31.018000Z -->
         <SegmentTimeline>
-          <S t="1756216649018" d="2000" r="89"/>
+          <S t="1756222411018" d="2000" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="textstream_840105986_may=8000" bandwidth="8000">
@@ -85,9 +87,9 @@
     <AdaptationSet id="4" group="3" contentType="text" lang="zh" mimeType="application/mp4" codecs="stpp.ttml.im1t" startWithSAP="1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
       <SegmentTemplate timescale="1000" initialization="1000-$RepresentationID$.dash?ctype=live" media="1000-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-08-26T13:57:29.018000Z / 1756216649 - 2025-08-26T14:00:29.018000Z -->
+        <!-- 2025-08-26T15:33:31.018000Z / 1756222411 - 2025-08-26T15:36:31.018000Z -->
         <SegmentTimeline>
-          <S t="1756216649018" d="2000" r="89"/>
+          <S t="1756222411018" d="2000" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="textstream_840171522_chi=8000" bandwidth="8000">
@@ -96,9 +98,9 @@
     <AdaptationSet id="5" group="3" contentType="text" lang="en" mimeType="application/mp4" codecs="stpp.ttml.im1t" startWithSAP="1">
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
       <SegmentTemplate timescale="1000" initialization="1000-$RepresentationID$.dash?ctype=live" media="1000-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-08-26T13:57:29.018000Z / 1756216649 - 2025-08-26T14:00:29.018000Z -->
+        <!-- 2025-08-26T15:33:31.018000Z / 1756222411 - 2025-08-26T15:36:31.018000Z -->
         <SegmentTimeline>
-          <S t="1756216649018" d="2000" r="89"/>
+          <S t="1756222411018" d="2000" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
       <Representation id="textstream_840237058_eng=8000" bandwidth="8000">
@@ -118,12 +120,20 @@
       </ContentProtection>
       <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
       <SegmentTemplate timescale="600" initialization="1000-$RepresentationID$.dash?ctype=live" media="1000-$RepresentationID$-$Time$.dash?ctype=live">
-        <!-- 2025-08-26T13:57:29.018333Z / 1756216649 - 2025-08-26T14:00:29.018333Z -->
+        <!-- 2025-08-26T15:33:31.018333Z / 1756222411 - 2025-08-26T15:36:31.018333Z -->
         <SegmentTimeline>
-          <S t="1053729989411" d="1200" r="89"/>
+          <S t="1053733446611" d="1200" r="89"/>
         </SegmentTimeline>
       </SegmentTemplate>
-      <Representation id="video=1649200" bandwidth="2500000" width="1280" height="720" sar="1:1" codecs="avc1.640029" scanType="progressive" frameRate="25" mimeType="video/mp4">
+      <Representation id="video=426000" bandwidth="426000" width="480" height="270" sar="1:1" codecs="avc1.4D4015" scanType="progressive">
+      </Representation>
+      <Representation id="video=729600" bandwidth="729600" width="480" height="270" sar="1:1" codecs="avc1.4D4016" scanType="progressive">
+      </Representation>
+      <Representation id="video=934000" bandwidth="934000" width="640" height="480" sar="4:3" codecs="avc1.4D4020" scanType="progressive">
+      </Representation>
+      <Representation id="video=1097600" bandwidth="1097600" width="960" height="540" sar="1:1" codecs="avc1.4D4029" scanType="progressive">
+      </Representation>
+      <Representation id="video=1649200" bandwidth="1649200" width="1280" height="720" sar="1:1" codecs="avc1.640029" scanType="progressive">
       </Representation>
     </AdaptationSet>
   </Period>
